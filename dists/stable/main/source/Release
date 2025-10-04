@@ -1,0 +1,5 @@
+Component: main
+Origin: Moon
+Label: MoonRepo
+Architecture: source
+Description: Moon's custom Debian repo
