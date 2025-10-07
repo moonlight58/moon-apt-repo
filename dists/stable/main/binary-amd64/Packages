@@ -1,0 +1,17 @@
+Package: bashrc-script-custom
+Version: 1.0-1
+Architecture: all
+Maintainer: Moon <gaelrothlin@gmail.com>
+Installed-Size: 43
+Depends: bash
+Homepage: https://github.com/moonlight58/bashrc-script-custom
+Priority: optional
+Section: utils
+Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.0-1_all.deb
+Size: 8412
+SHA256: 64ad2d068a19572b99c6856104432657f2c58ef37d491e28b1970beb8af1320a
+SHA1: f347c4e2cd2eda408bd7ac47a0883ecfdd72877e
+MD5sum: b8ce2239cabf57a59f7da92a39008496
+Description: Custom bashrc script installer
+ A small script that installs custom bashrc scripts into your environment.
+

@@ -1,0 +1,28 @@
+Origin: Moon
+Label: MoonRepo
+Codename: stable
+Date: Tue, 07 Oct 2025 17:54:52 UTC
+Architectures: amd64
+Components: main
+Description: Moon's custom Debian repo
+MD5Sum:
+ ff0e73f67b715a42fa661df7c2f3c0c3 603 main/binary-amd64/Packages
+ 3d7cd1cbb68db0408b2af858c54db654 397 main/binary-amd64/Packages.gz
+ fc24be156d5ad47b97410065fe6f92da 104 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 2f2d39fd84d892e45f356016caf21ea2 105 main/source/Release
+SHA1:
+ 810c2ced1ccaff30e01323307c489d7c2ad76f1b 603 main/binary-amd64/Packages
+ 266c3945a95a52e332e321b9cab6f6e8480df688 397 main/binary-amd64/Packages.gz
+ afd6e49594009b6afd8662b387e0ef83cec32e4c 104 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 7a8cfbe9b986c36d736888f64988f6cefff7f305 105 main/source/Release
+SHA256:
+ ca2d80ea3c73a8e7670781bb54f672c3d328439288a54ca572969958878c80bd 603 main/binary-amd64/Packages
+ bbe81a44191d571858db0fb4cb32fcf239898fcd605f324d200abcbe28ff3ec9 397 main/binary-amd64/Packages.gz
+ e248f94be69b287c283ade2e93a4af63b8d105c2c00891be471d2fa9cf207047 104 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ b080d1ec4bac851369c0ed1d2365a05ad972341c7236e5311e8ee5867d5691b9 105 main/source/Release
