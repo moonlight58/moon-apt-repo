@@ -4,11 +4,11 @@ Architecture: all
 Maintainer: Moon <gaelrothlin@gmail.com>
 Installed-Size: 43
 Depends: bash
-Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.0.5_all.deb
+Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.1.3_all.deb
 Size: 8496
-MD5sum: fcac2b8c5fbb0ce2a341f2b70da4533c
-SHA1: f4d9cde01d389072280478d2aa08b83a7df94f34
-SHA256: 77e2ceb4b2af6f4550543659e041cfbb74d96635fb971b3ddbfc06546f876f93
+MD5sum: b688ce4fc48829753c73e97b8aaee429
+SHA1: 4ac1506b55504bd027fa3431ef77f58feefdfdbe
+SHA256: 56ecb54bcab1376d29a76660fa20fe0566f9414934812cf9c8930eec3240df6f
 Section: utils
 Priority: optional
 Homepage: https://github.com/moonlight58/bashrc-script-custom
