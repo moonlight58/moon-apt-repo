@@ -1,2 +1,3 @@
 #!/bin/bash
+set -e
 sudo rm /home/userdepinfo/Documents/github/moon-apt-repo/pool/main/b/bashrc-script-custom/*
