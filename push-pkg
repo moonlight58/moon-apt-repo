@@ -3,7 +3,7 @@ set -e
 
 cd /home/userdepinfo/Documents/github/moon-apt-repo || exit 1
 git checkout gh-pages
-git pull origin gh-pages
+git pull origin gh-pages --allow-unrelated-histories
 git add .
 git commit -m "update at $(date +'%Y-%m-%d %H:%M:%S')"
 git push origin gh-pages
