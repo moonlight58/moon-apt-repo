@@ -1,10 +1,38 @@
 #!/bin/bash
 set -e
 
-rm dists/stable/main/binary-amd64/Packages*
+# 🧭 Aller à la racine du dépôt
+cd "$(dirname "$0")"
 
-dpkg-scanpackages pool/main > dists/stable/main/binary-amd64/Packages
-gzip -k dists/stable/main/binary-amd64/Packages
+# 🧹 Supprimer les anciens index
+echo "[INFO] Suppression des anciens fichiers d'index..."
+rm -f dists/stable/main/binary-amd64/Packages*
+rm -f dists/stable/Release*
+rm -f dists/stable/InRelease
+
+# 🏗️ Régénérer les fichiers Packages et Packages.gz
+echo "[INFO] Génération de Packages et Packages.gz..."
+dpkg-scanpackages -m pool/main /dev/null > dists/stable/main/binary-amd64/Packages
+gzip -9 -k dists/stable/main/binary-amd64/Packages
+
+# 🧾 Créer le fichier Release
+echo "[INFO] Génération du fichier Release..."
 apt-ftparchive release dists/stable > dists/stable/Release
-gpg --clearsign -o dists/stable/InRelease dists/stable/Release
-gpg -abs -o dists/stable/Release.gpg dists/stable/Release
+
+# 🔐 Signature GPG (si ta clé est déjà importée)
+echo "[INFO] Signature du dépôt..."
+gpg --yes --clearsign -o dists/stable/InRelease dists/stable/Release
+gpg --yes -abs -o dists/stable/Release.gpg dists/stable/Release
+
+# 🪣 Vérification rapide
+echo "[INFO] Vérification du résultat :"
+ls -lh dists/stable/main/binary-amd64/
+ls -lh dists/stable/
+
+# 🪶 (Optionnel) Commit et push automatique sur GitHub Pages
+echo "[INFO] Commit et push vers GitHub Pages..."
+git add dists/
+git commit -m "Update APT index $(date '+%Y-%m-%d %H:%M:%S')"
+git push origin gh-pages
+
+echo "[✅] Dépôt APT mis à jour avec succès !"
