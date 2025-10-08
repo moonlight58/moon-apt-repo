@@ -2,6 +2,20 @@ Package: bashrc-script-custom
 Version: 1.1.6
 Architecture: all
 Maintainer: Moonlight <moon@local>
+Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.0.1_all.deb
+Size: 5716
+MD5sum: 4f6b8f63f0e7e83a827ee5fe36cce06c
+SHA1: c53807e47dffecdcf88d834a0e2f7c7af7cf2be7
+SHA256: 79d64465316c0762de3f10d82cfd12303ed45d08885ac4982006a43b28c3c30a
+Section: base
+Priority: optional
+Description: Scripts personnalisés pour le bashrc
+ Fournit des alias, fonctions et intégrations personnalisées pour le terminal.
+
+Package: bashrc-script-custom
+Version: 1.1.6
+Architecture: all
+Maintainer: Moonlight <moon@local>
 Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.0.0_all.deb
 Size: 5720
 MD5sum: 9dc5d4682ba40f6e7ed9b9fe6b697405
