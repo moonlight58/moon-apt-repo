@@ -6,9 +6,9 @@ Installed-Size: 43
 Depends: bash
 Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.1.4_all.deb
 Size: 8496
-MD5sum: df487299dd9ed39aee2561d6a3477ad4
-SHA1: e9e839e53f98da78e92b6ba82f73d1d25e216108
-SHA256: 307ac8d07f257d0328c5a3f26d6209ce6414d31a7d2b9c36cc14ef796cb93642
+MD5sum: f746a3d81977cd3464dc6c644b3d3ef0
+SHA1: bdcb61e8b9b57d13ee149f172ca78104c91e80fc
+SHA256: 3f7678c224739f899956331b3f3b5898f43aa4d3c5900fa883779d51c6203de4
 Section: utils
 Priority: optional
 Homepage: https://github.com/moonlight58/bashrc-script-custom
