@@ -1,19 +1,14 @@
 Package: bashrc-script-custom
-Source: bashrc-script-custom
 Version: 1.1.6
 Architecture: all
-Maintainer: Moon <gaelrothlin@gmail.com>
-Depends: bash (>=5)
+Maintainer: Moonlight <moon@local>
 Filename: pool/main/b/bashrc-script-custom/bashrc-script-custom_1.1.6_all.deb
-Size: 192364
-MD5sum: db36738bd73b2a295bc1b48b0fcb8f4a
-SHA1: 85e7cb96ac284a286f3aee45d2a8c0cde430729b
-SHA256: 3062476faa4991ada6e2860871a7391be84c3c7ab23727d1860c7f08eae5a264
-Section: utils
+Size: 5720
+MD5sum: 8aadd748168c4d61d5e0c202bb9ea4bd
+SHA1: 9ae0978d2c7c7f4c3dbe6700039c2e4300d25a00
+SHA256: 8782e0dfe587dfda80b5bf14e8c5bd7ccb4868ee2abedbf899d4ccb50f1f9e60
+Section: base
 Priority: optional
-Homepage: https://github.com/moonlight58/bashrc-script-custom
-Description: Custom bashrc script installer
- A small script that installs custom bashrc scripts into your environment.
-Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.6.0
+Description: Scripts personnalisés pour le bashrc
+ Fournit des alias, fonctions et intégrations personnalisées pour le terminal.
 
